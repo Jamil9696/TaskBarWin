@@ -44,7 +44,6 @@ public class StartMenuModel {
 
         for (final Map.Entry<String, String> entry : reader.getMap().entrySet()) {
             add_new_icon(entry.getKey(), entry.getValue());
-
         }
     }
     public List<Icons> getIconList(){
