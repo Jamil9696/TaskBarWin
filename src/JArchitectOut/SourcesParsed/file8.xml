@@ -1,0 +1,4 @@
+<root><type name="sample.Main2" s="2"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<method name="main(java.lang.String[])" s="4" e="6" n ="false" sta ="true" sync ="false" vis="public" return="void"  signature="(java.lang.String[])"><params><param type="java.lang.String[]"/></params><dm p="sample.Main" s="main(java.lang.String[])"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

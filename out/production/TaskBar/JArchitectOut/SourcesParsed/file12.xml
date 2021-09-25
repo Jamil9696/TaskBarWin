@@ -1,0 +1,37 @@
+<root><type name="start_menu.StartMenuView" s="11"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="stage" s="13" type="javafx.stage.Stage" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="bPane" s="14" type="javafx.scene.layout.BorderPane" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="StartMenuView()" s="16" e="20" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="javafx.stage.Stage" s="Stage()"/>
+<dm p="javafx.scene.layout.BorderPane" s="BorderPane()"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="start()" s="22" e="35" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="javafx.scene.Scene" s="Scene(javafx.scene.Parent)"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.scene.Scene" s="getStylesheets()"/>
+<dm p="java.net.URL" s="toExternalForm()"/>
+<dm p="java.util.Objects" s="requireNonNull(java.lang.Object)"/>
+<dm p="java.lang.Class" s="getResource(java.lang.String)"/>
+<dm p="java.lang.Object" s="getClass()"/>
+<dm p="javafx.scene.Scene" s="setFill(javafx.scene.paint.Paint)"/>
+<dm p="javafx.stage.Stage" s="initStyle(javafx.stage.StageStyle)"/>
+<dm p="javafx.stage.Stage" s="setScene(javafx.scene.Scene)"/>
+<dm p="javafx.stage.Stage" s="setFullScreen(boolean)"/>
+<dm p="javafx.stage.Stage" s="setFullScreenExitKeyCombination(javafx.scene.input.KeyCombination)"/>
+<dm p="javafx.stage.Stage" s="show()"/>
+<metrics cc="1" cm="0" vars="1" loc="8"/></method><method name="setPosition(int,javafx.scene.Node)" s="36" e="50" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(int,javafx.scene.Node)"><params><param type="int"/><param type="javafx.scene.Node"/></params><dm p="javafx.scene.layout.BorderPane" s="setBottom(javafx.scene.Node)"/>
+<dm p="javafx.scene.layout.BorderPane" s="setTop(javafx.scene.Node)"/>
+<dm p="javafx.scene.layout.BorderPane" s="setLeft(javafx.scene.Node)"/>
+<dm p="javafx.scene.layout.BorderPane" s="setRight(javafx.scene.Node)"/>
+<dm p="javafx.scene.layout.BorderPane" s="setCenter(javafx.scene.Node)"/>
+<metrics cc="6" cm="0" vars="0" loc="10"/></method><method name="show_view_bottom_right()" s="51" e="55" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="javafx.scene.Node" s="setVisible(boolean)"/>
+<dm p="javafx.scene.layout.BorderPane" s="getBottom()"/>
+<dm p="javafx.scene.Node" s="setVisible(boolean)"/>
+<dm p="javafx.scene.layout.BorderPane" s="getCenter()"/>
+<dm p="javafx.scene.Node" s="setVisible(boolean)"/>
+<dm p="javafx.scene.layout.BorderPane" s="getRight()"/>
+<metrics cc="1" cm="0" vars="0" loc="3"/></method><method name="show_view_center()" s="57" e="61" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="javafx.scene.layout.BorderPane" s="setRight(javafx.scene.Node)"/>
+<dm p="javafx.scene.Node" s="setVisible(boolean)"/>
+<dm p="javafx.scene.layout.BorderPane" s="getCenter()"/>
+<dm p="javafx.scene.layout.BorderPane" s="setBottom(javafx.scene.Node)"/>
+<metrics cc="1" cm="0" vars="0" loc="3"/></method>
+</type></root>

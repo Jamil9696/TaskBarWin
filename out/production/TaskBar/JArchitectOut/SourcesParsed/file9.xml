@@ -1,0 +1,17 @@
+<root><type name="save_data.FileReader" s="9"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="image_app_list" s="11" type="java.util.TreeMap" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="data_file" s="12" type="java.io.File" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="FileReader()" s="15" e="23" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="java.util.TreeMap" s="TreeMap&lt;String,String&gt;()"/>
+<dm p="java.io.File" s="File(java.lang.String)"/>
+<dm p="java.lang.System" s="getProperty(java.lang.String)"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="read_file()" s="25" e="37" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="java.io.BufferedReader" s="BufferedReader(java.io.Reader)"/>
+<dm p="java.io.FileReader" s="FileReader(java.io.File)"/>
+<dm p="java.io.BufferedReader" s="readLine()"/>
+<dm p="java.io.BufferedReader" s="readLine()"/>
+<dm p="java.util.TreeMap" s="put(java.lang.Object,java.lang.Object)"/>
+<dm p="java.lang.Throwable" s="printStackTrace()"/>
+<metrics cc="4" cm="0" vars="3" loc="6"/></method><method name="getMap()" s="40" e="40" n ="false" sta ="false" sync ="false" vis="public" return="java.util.Map"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getSize()" s="42" e="44" n ="false" sta ="false" sync ="false" vis="public" return="int"  signature="()"><dm p="java.util.TreeMap" s="size()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

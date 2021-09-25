@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+C:\Users\jamil\IdeaProjects\TaskBar\src\JArchitectOut\SourcesParsed\worspacedir637679274410300299\.metadata\.plugins\org.eclipse.jdt.core
+3337299282.index
+2065393174.index
+1225346213.index
+4130050657.index
+3421715954.index
+1241442259.index
+2535782173.index
+3315711085.index

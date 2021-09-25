@@ -1,0 +1,37 @@
+<root><type name="taskbar_bottom.ViewBottom" s="8"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="pane" s="10" type="javafx.scene.control.ScrollPane" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="hBox" s="11" type="javafx.scene.layout.HBox" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="ViewBottom()" s="13" e="18" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="javafx.scene.control.ScrollPane" s="ScrollPane()"/>
+<dm p="javafx.scene.layout.HBox" s="HBox(javafx.scene.Node[])"/>
+<dm p="javafx.scene.control.Button" s="Button()"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="setStyle()" s="19" e="24" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="javafx.scene.Node" s="setStyle(java.lang.String)"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<dm p="taskbar_bottom.ViewBottom" s="setScrollPane(javafx.scene.control.ScrollPane,javafx.scene.Node)"/>
+<dm p="javafx.collections.ObservableList" s="addAll(java.lang.Object[])"/>
+<dm p="javafx.scene.Node" s="getStyleClass()"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="getStyleClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="4"/></method><method name="setScrollPane(javafx.scene.control.ScrollPane,javafx.scene.Node)" s="25" e="31" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(javafx.scene.control.ScrollPane,javafx.scene.Node)"><params><param type="javafx.scene.control.ScrollPane"/><param type="javafx.scene.Node"/></params><dm p="javafx.scene.control.ScrollPane" s="setContent(javafx.scene.Node)"/>
+<dm p="javafx.scene.control.ScrollPane" s="setPannable(boolean)"/>
+<dm p="javafx.scene.control.ScrollPane" s="setVbarPolicy(javafx.scene.control.ScrollPane$ScrollBarPolicy)"/>
+<dm p="javafx.scene.control.ScrollPane" s="setHbarPolicy(javafx.scene.control.ScrollPane$ScrollBarPolicy)"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="getStyleClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="5"/></method><method name="getLayout_Container()" s="32" e="32" n ="false" sta ="false" sync ="false" vis="public" return="javafx.scene.layout.Pane"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="start()" s="34" e="34" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="javafx.scene.Node" s="setVisible(boolean)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getScrollPane()" s="36" e="38" n ="false" sta ="false" sync ="false" vis="public" return="javafx.scene.control.ScrollPane"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="remove(javafx.scene.control.Button)" s="40" e="49" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button)"><params><param type="javafx.scene.control.Button"/></params><dm p="java.util.List" s="size()"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<dm p="java.lang.String" s="equals(java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="getStyle()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<dm p="javafx.scene.Node" s="getStyle()"/>
+<dm p="java.util.List" s="remove(int)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<metrics cc="3" cm="0" vars="1" loc="3"/></method><method name="show_iconBtn(javafx.scene.control.Button,java.lang.String)" s="51" e="55" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button,java.lang.String)"><params><param type="javafx.scene.control.Button"/><param type="java.lang.String"/></params><dm p="javafx.scene.Node" s="setStyle(java.lang.String)"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method>
+</type></root>

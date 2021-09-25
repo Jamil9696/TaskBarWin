@@ -1,0 +1,35 @@
+<root><type name="taskbar_right.ControllerRight" s="10"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<interfaces>
+<interface name="interfaces.Controllers"/>
+</interfaces><field name="viewright" s="12" type="taskbar_right.ViewRight" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="model" s="13" type="taskbar_right.ModelRight" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="ControllerRight(taskbar_right.ViewRight)" s="15" e="19" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(taskbar_right.ViewRight)"><params><param type="taskbar_right.ViewRight"/></params><dm p="taskbar_right.ModelRight" s="ModelRight()"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="display_Icon(interfaces.Icons)" s="21" e="25" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(interfaces.Icons)"><params><param type="interfaces.Icons"/></params><dm p="taskbar_right.ViewRight" s="show_iconBtn(javafx.scene.control.Button,java.lang.String,java.lang.String)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="interfaces.Icons" s="getImageName()"/>
+<dm p="javafx.scene.Node" s="getId()"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="taskbar_right.ControllerRight" s="connect_view_Buttons(javafx.scene.control.Button)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="connect_view_Buttons(javafx.scene.control.Button)" s="27" e="31" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(javafx.scene.control.Button)"><params><param type="javafx.scene.control.Button"/></params><dm p="javafx.scene.Node" s="setOnMouseEntered(javafx.event.EventHandler)"/>
+<dm p="taskbar_right.ModelRight" s="set_Btn_Hover_effect(javafx.scene.control.Button,double,double)"/>
+<dm p="javafx.scene.Node" s="setOnMouseExited(javafx.event.EventHandler)"/>
+<dm p="taskbar_right.ModelRight" s="set_Btn_Hover_effect(javafx.scene.control.Button,double,double)"/>
+<dm p="taskbar_right.ModelRight" s="set_btn_rotate_effect(javafx.scene.control.Button)"/>
+<metrics cc="1" cm="0" vars="2" loc="3"/></method><method name="add_new_icon(java.lang.String,java.lang.String)" s="34" e="41" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.String,java.lang.String)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="taskbar_right.ModelRight" s="add_new_icon(java.lang.String)"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="taskbar_right.ModelRight" s="getList()"/>
+<dm p="java.util.List" s="size()"/>
+<dm p="taskbar_right.ModelRight" s="getList()"/>
+<dm p="taskbar_right.ControllerRight" s="display_Icon(interfaces.Icons)"/>
+<metrics cc="2" cm="0" vars="2" loc="4"/></method><method name="remove(javafx.scene.control.Button)" s="42" e="49" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="javafx.scene.control.Button"/></params><dm p="javafx.scene.Node" s="getId()"/>
+<dm p="taskbar_right.ViewRight" s="remove(javafx.scene.control.Button)"/>
+<dm p="taskbar_right.ModelRight" s="remove(javafx.scene.control.Button)"/>
+<metrics cc="2" cm="0" vars="0" loc="3"/></method><method name="getLayoutContainer()" s="50" e="53" n ="false" sta ="false" sync ="false" vis="public" return="javafx.scene.layout.Pane"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="javafx.scene.control.ScrollPane" s="getContent()"/>
+<dm p="taskbar_right.ViewRight" s="getScrollPane()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getScrollPane()" s="55" e="58" n ="false" sta ="false" sync ="false" vis="public" return="javafx.scene.control.ScrollPane"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="taskbar_right.ViewRight" s="getScrollPane()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="start()" s="60" e="63" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="taskbar_right.ViewRight" s="setStyle()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

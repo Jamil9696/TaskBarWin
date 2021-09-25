@@ -1,0 +1,13 @@
+<root><type name="icon_types.Web_Icon" s="8"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<extends>
+<extend  name="icon_types.Icon"></extend></extends>
+<field name="imageName" s="10" type="java.lang.String" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="url" s="11" type="java.lang.String" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="Web_Icon(java.lang.String,java.lang.String)" s="14" e="19" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.String,java.lang.String)"><params><param type="java.lang.String"/><param type="java.lang.String"/></params><metrics cc="1" cm="0" vars="0" loc="3"/></method><method name="getImageName()" s="21" e="24" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="java.lang.String"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getTarget()" s="26" e="29" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getTargetPath()" s="31" e="34" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getImagePath()" s="36" e="39" n ="false" sta ="false" sync ="false" vis="public" return="java.lang.String"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="start()" s="41" e="48" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="java.awt.Desktop" s="browse(java.net.URI)"/>
+<dm p="java.awt.Desktop" s="getDesktop()"/>
+<dm p="java.net.URI" s="URI(java.lang.String)"/>
+<dm p="java.lang.Throwable" s="printStackTrace()"/>
+<metrics cc="2" cm="0" vars="0" loc="3"/></method>
+</type></root>

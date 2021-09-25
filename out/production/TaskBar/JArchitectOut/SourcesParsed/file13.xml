@@ -1,0 +1,54 @@
+<root><type name="start_menu.StartMenuModel" s="17"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="iconList" s="19" type="java.util.ArrayList" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="reader" s="20" type="save_data.FileReader" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="writer" s="21" type="save_data.FileWriter" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="StartMenuModel()" s="24" e="28" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="java.util.ArrayList" s="ArrayList&lt;Icons&gt;()"/>
+<dm p="save_data.FileReader" s="FileReader()"/>
+<dm p="save_data.FileWriter" s="FileWriter()"/>
+<metrics cc="1" cm="0" vars="0" loc="3"/></method><method name="readData()" s="29" e="47" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="java.lang.System" s="getProperty(java.lang.String)"/>
+<f p="null" s="length"/>
+<dm p="java.util.Objects" s="requireNonNull(java.lang.Object)"/>
+<dm p="java.io.File" s="list()"/>
+<dm p="java.io.File" s="getParentFile()"/>
+<dm p="java.io.File" s="File(java.lang.String)"/>
+<dm p="save_data.FileWriter" s="read_folder()"/>
+<dm p="save_data.FileWriter" s="write_file()"/>
+<dm p="save_data.FileReader" s="read_file()"/>
+<dm p="java.util.Map" s="entrySet()"/>
+<dm p="save_data.FileReader" s="getMap()"/>
+<dm p="start_menu.StartMenuModel" s="add_new_icon(java.lang.String,java.lang.String)"/>
+<dm p="java.util.Map$Entry" s="getKey()"/>
+<dm p="java.util.Map$Entry" s="getValue()"/>
+<metrics cc="3" cm="0" vars="1" loc="7"/></method><method name="getIconList()" s="48" e="50" n ="false" sta ="false" sync ="false" get ="true" vis="public" return="java.util.List"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="add_new_icon(java.lang.String,java.lang.String)" s="53" e="60" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.String,java.lang.String)"><params><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="java.util.ArrayList" s="add(java.lang.Object)"/>
+<metrics cc="1" cm="0" vars="1" loc="2"/></method><method name="save_menu()" s="62" e="66" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="java.lang.Thread" s="Thread(java.lang.Runnable)"/>
+<dm p="java.lang.Thread" s="start()"/>
+<metrics cc="1" cm="0" vars="1" loc="2"/></method><method name="copy_dropped_files(java.io.File)" s="67" e="79" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.io.File)"><params><param type="java.io.File"/></params><dm p="java.nio.file.Paths" s="get(java.net.URI)"/>
+<dm p="java.io.File" s="toURI()"/>
+<dm p="java.nio.file.Paths" s="get(java.net.URI)"/>
+<dm p="java.io.File" s="getName()"/>
+<dm p="java.io.File" s="getName()"/>
+<dm p="java.nio.file.Files" s="copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])"/>
+<dm p="java.lang.Throwable" s="printStackTrace()"/>
+<metrics cc="2" cm="0" vars="2" loc="5"/></method><method name="fileExists(java.io.File)" s="81" e="88" n ="false" sta ="false" sync ="false" vis="public" return="boolean"  signature="(java.io.File)"><params><param type="java.io.File"/></params><dm p="java.lang.String" s="toLowerCase(java.util.Locale)"/>
+<dm p="save_data.FileWriter" s="delete_extension(java.lang.String)"/>
+<dm p="java.io.File" s="getName()"/>
+<dm p="java.util.stream.Stream" s="anyMatch(java.util.function.Predicate)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.lang.String" s="contains(java.lang.CharSequence)"/>
+<dm p="interfaces.Icons" s="getImageName()"/>
+<dm p="javafx.scene.Node" s="getId()"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.lang.String" s="contains(java.lang.CharSequence)"/>
+<dm p="javafx.scene.Node" s="getId()"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.io.File" s="getName()"/>
+<metrics cc="1" cm="0" vars="2" loc="2"/></method><method name="remove(javafx.scene.control.Button)" s="90" e="98" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button)"><params><param type="javafx.scene.control.Button"/></params><dm p="java.util.ArrayList" s="size()"/>
+<dm p="java.lang.Object" s="equals(java.lang.Object)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.util.ArrayList" s="get(int)"/>
+<dm p="java.util.ArrayList" s="remove(int)"/>
+<metrics cc="3" cm="0" vars="1" loc="4"/></method>
+</type></root>

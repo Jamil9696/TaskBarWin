@@ -1,0 +1,20 @@
+<root><type name="taskbar_center.ModelCenter" s="14"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="iconList" s="16" type="java.util.List" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="ModelCenter()" s="18" e="20" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="java.util.ArrayList" s="ArrayList&lt;Icons&gt;()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="remove_icon(javafx.scene.control.Button)" s="22" e="32" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button)"><params><param type="javafx.scene.control.Button"/></params><dm p="java.util.stream.Stream" s="collect(java.util.stream.Collector)"/>
+<dm p="java.util.stream.Stream" s="peek(java.util.function.Consumer)"/>
+<dm p="java.util.stream.Stream" s="filter(java.util.function.Predicate)"/>
+<dm p="java.util.Collection" s="stream()"/>
+<dm p="java.lang.Object" s="equals(java.lang.Object)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.util.stream.Collectors" s="toList()"/>
+<dm p="java.lang.Iterable" s="forEach(java.util.function.Consumer)"/>
+<metrics cc="1" cm="0" vars="2" loc="2"/></method><method name="add_new_icon(java.lang.String)" s="34" e="39" n ="false" sta ="false" sync ="false" vis="package" return="boolean"  signature="(java.lang.String)"><params><param type="java.lang.String"/></params><metrics cc="1" cm="0" vars="1" loc="2"/></method><method name="deleteFile(interfaces.Icons)" s="41" e="56" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(interfaces.Icons)"><params><param type="interfaces.Icons"/></params><dm p="interfaces.Icons" s="getImagePath()"/>
+<dm p="interfaces.Icons" s="getTargetPath()"/>
+<dm p="interfaces.Icons" s="getTargetPath()"/>
+<dm p="java.nio.file.Files" s="deleteIfExists(java.nio.file.Path)"/>
+<dm p="java.nio.file.Paths" s="get(java.lang.String,java.lang.String[])"/>
+<dm p="java.lang.Throwable" s="printStackTrace()"/>
+<metrics cc="3" cm="0" vars="1" loc="6"/></method><method name="getList()" s="57" e="59" n ="false" sta ="false" sync ="false" vis="public" return="java.util.List"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

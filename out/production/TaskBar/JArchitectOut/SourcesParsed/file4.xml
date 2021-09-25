@@ -1,0 +1,24 @@
+<root><type name="icon_types.Icon" s="7"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="true" n ="false" c="0" >
+<interfaces>
+<interface name="interfaces.Icons"/>
+</interfaces><field name="iconBtn" s="9" type="javafx.scene.control.Button" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="project_path" s="11" type="java.lang.String" vis="protected"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="app_path" s="12" type="java.lang.String" vis="protected"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="image_path" s="13" type="java.lang.String" vis="protected"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="textIcon_path" s="14" type="java.lang.String" vis="protected"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="Icon()" s="18" e="30" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="javafx.scene.control.Button" s="Button()"/>
+<dm p="java.lang.System" s="getProperty(java.lang.String)"/>
+<metrics cc="1" cm="0" vars="0" loc="5"/></method><method name="getButton()" s="32" e="34" n ="false" sta ="false" sync ="false" vis="public" return="javafx.scene.control.Button"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="delete_extension(java.lang.String)" s="36" e="45" n ="false" sta ="false" sync ="false" vis="protected" return="java.lang.String"  signature="(java.lang.String)"><params><param type="java.lang.String"/></params><dm p="java.lang.StringBuilder" s="StringBuilder(java.lang.String)"/>
+<dm p="java.lang.AbstractStringBuilder" s="length()"/>
+<dm p="java.lang.AbstractStringBuilder" s="charAt(int)"/>
+<dm p="java.lang.AbstractStringBuilder" s="charAt(int)"/>
+<dm p="java.lang.StringBuilder" s="deleteCharAt(int)"/>
+<dm p="java.lang.StringBuilder" s="deleteCharAt(int)"/>
+<dm p="java.lang.StringBuilder" s="toString()"/>
+<metrics cc="2" cm="0" vars="3" loc="6"/></method>
+</type></root>

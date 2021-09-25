@@ -1,0 +1,72 @@
+.root { -fx-background-color: transparent; }
+
+.views{
+ -fx-spacing: 15.0;
+ -fx-alignment: CENTER;
+ -fx-pref-height: 105px;
+ -fx-pref-width: 105px;
+
+}
+.circle{
+
+  -fx-background-size: stretch;
+  -fx-background-position: center;
+
+}
+
+.label{
+      -fx-text-fill: white;
+      -fx-font-weight: bolder;
+}
+
+.mini_vBox_center{
+   -fx-alignment: CENTER;
+   -fx-spacing: 25px;
+   -fx-max-width: 80px;
+}
+
+.vbox_right{
+  -fx-background-color:transparent;
+  -fx-padding: 40 0 0 60;
+  -fx-spacing: 10px;
+  -fx-min-width: 100px;
+}
+vbox{
+
+    -fx-background-color: transparent;
+}
+.flowpane{
+   -fx-padding: 40px;
+   -fx-spacing: 30px;
+
+}
+.view_center_vbox{
+    -fx-background-color: rgb(0,0,0,0.5);
+    -fx-spacing: 20px;
+    -fx-padding: 40 20 20 20;
+}
+
+.hbox_bottom{
+
+    -fx-spacing: 25px;
+    -fx-pref-height: 160px;
+    -fx-background-color: rgb(0,0,0,0.01);
+    -fx-alignment: CENTER;
+}
+
+.scroll-pane{
+   -fx-background-color:transparent;
+   -fx-background: transparent;
+   -fx-min-width: 150px;
+
+}
+.button{
+  -fx-border-radius: 5px;
+  -fx-background-color: transparent;
+  -fx-background-size: stretch;
+  -fx-background-position: center;
+  -fx-pref-width: 50px;
+  -fx-background-radius: 35px;
+  -fx-min-width: 50px;
+  -fx-min-height:50px;
+}

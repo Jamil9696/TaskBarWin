@@ -1,0 +1,88 @@
+<root><type name="taskbar_bottom.ControllerBottom" s="20"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<interfaces>
+<interface name="interfaces.Controllers"/>
+</interfaces><field name="view_bottom" s="22" type="taskbar_bottom.ViewBottom" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="model" s="23" type="taskbar_bottom.ModelBottom" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="ControllerBottom(taskbar_bottom.ViewBottom)" s="25" e="28" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(taskbar_bottom.ViewBottom)"><params><param type="taskbar_bottom.ViewBottom"/></params><dm p="taskbar_bottom.ModelBottom" s="ModelBottom()"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="start()" s="30" e="46" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="taskbar_bottom.ViewBottom" s="setStyle()"/>
+<dm p="taskbar_bottom.ViewBottom" s="getLayout_Container()"/>
+<dm p="javafx.scene.Node" s="setOnMouseMoved(javafx.event.EventHandler)"/>
+<dm p="taskbar_bottom.ControllerBottom" s="hover_effect_hBox(javafx.scene.layout.HBox,double)"/>
+<dm p="javafx.scene.Node" s="setOnMouseExited(javafx.event.EventHandler)"/>
+<dm p="taskbar_bottom.ControllerBottom" s="hover_effect_hBox(javafx.scene.layout.HBox,double)"/>
+<dm p="javafx.scene.Node" s="setOnDragOver(javafx.event.EventHandler)"/>
+<dm p="javafx.scene.Node" s="setOnDragDropped(javafx.event.EventHandler)"/>
+<dm p="taskbar_bottom.ControllerBottom" s="dragDropped(javafx.scene.input.DragEvent)"/>
+<dm p="java.lang.Throwable" s="printStackTrace()"/>
+<metrics cc="2" cm="0" vars="4" loc="9"/></method><method name="connect_view_Buttons(int)" s="47" e="52" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(int)"><params><param type="int"/></params><dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="taskbar_bottom.ModelBottom" s="getList()"/>
+<dm p="javafx.scene.Node" s="setOnMouseEntered(javafx.event.EventHandler)"/>
+<dm p="taskbar_bottom.ControllerBottom" s="hover_effect(javafx.scene.control.Button,double,double)"/>
+<dm p="javafx.scene.Node" s="setOnMouseExited(javafx.event.EventHandler)"/>
+<dm p="taskbar_bottom.ControllerBottom" s="hover_effect(javafx.scene.control.Button,double,double)"/>
+<dm p="taskbar_bottom.ModelBottom" s="set_btn_rotate_effect(javafx.scene.control.Button)"/>
+<metrics cc="1" cm="0" vars="3" loc="4"/></method><method name="add_grow_effects(int)" s="54" e="58" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(int)"><params><param type="int"/></params><dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="taskbar_bottom.ModelBottom" s="getList()"/>
+<dm p="javafx.scene.Node" s="setOnMouseMoved(javafx.event.EventHandler)"/>
+<dm p="taskbar_bottom.ControllerBottom" s="grow(javafx.scene.control.Button,double,double,double)"/>
+<dm p="javafx.scene.Node" s="setOnMouseExited(javafx.event.EventHandler)"/>
+<dm p="taskbar_bottom.ControllerBottom" s="grow(javafx.scene.control.Button,double,double,double)"/>
+<metrics cc="1" cm="0" vars="3" loc="3"/></method><method name="grow(javafx.scene.control.Button,double,double,double)" s="60" e="70" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(javafx.scene.control.Button,double,double,double)"><params><param type="javafx.scene.control.Button"/><param type="double"/><param type="double"/><param type="double"/></params><dm p="java.lang.Integer" s="parseInt(java.lang.String)"/>
+<dm p="javafx.scene.Node" s="getId()"/>
+<dm p="taskbar_bottom.ModelBottom" s="set_Btn_Hover_effect(javafx.scene.control.Button,double,double)"/>
+<dm p="java.util.List" s="size()"/>
+<dm p="taskbar_bottom.ModelBottom" s="getList()"/>
+<dm p="taskbar_bottom.ModelBottom" s="set_Btn_Hover_effect(javafx.scene.control.Button,double,double)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="taskbar_bottom.ModelBottom" s="getList()"/>
+<dm p="taskbar_bottom.ModelBottom" s="set_Btn_Hover_effect(javafx.scene.control.Button,double,double)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="taskbar_bottom.ModelBottom" s="getList()"/>
+<metrics cc="3" cm="0" vars="1" loc="6"/></method><method name="dragOver(javafx.scene.input.DragEvent)" s="71" e="76" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(javafx.scene.input.DragEvent)"><params><param type="javafx.scene.input.DragEvent"/></params><dm p="javafx.scene.input.DragEvent" s="getGestureSource()"/>
+<dm p="javafx.scene.input.Clipboard" s="hasFiles()"/>
+<dm p="javafx.scene.input.DragEvent" s="getDragboard()"/>
+<dm p="javafx.scene.input.DragEvent" s="acceptTransferModes(javafx.scene.input.TransferMode[])"/>
+<dm p="javafx.event.Event" s="consume()"/>
+<metrics cc="3" cm="0" vars="0" loc="3"/></method><method name="dragDropped(javafx.scene.input.DragEvent)" s="78" e="91" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.input.DragEvent)"><params><param type="javafx.scene.input.DragEvent"/></params><dm p="javafx.scene.input.Clipboard" s="getFiles()"/>
+<dm p="javafx.scene.input.DragEvent" s="getDragboard()"/>
+<dm p="java.nio.file.Paths" s="get(java.net.URI)"/>
+<dm p="java.io.File" s="toURI()"/>
+<dm p="java.nio.file.Paths" s="get(java.net.URI)"/>
+<dm p="java.io.File" s="getName()"/>
+<dm p="java.io.File" s="getName()"/>
+<dm p="java.nio.file.Files" s="copy(java.nio.file.Path,java.nio.file.Path,java.nio.file.CopyOption[])"/>
+<dm p="taskbar_bottom.ModelBottom" s="add_new_icon(java.lang.String,java.lang.String)"/>
+<dm p="java.io.File" s="getName()"/>
+<dm p="java.nio.file.Path" s="toString()"/>
+<dm p="javafx.scene.input.DragEvent" s="setDropCompleted(boolean)"/>
+<dm p="javafx.event.Event" s="consume()"/>
+<metrics cc="2" cm="0" vars="3" loc="8"/></method><method name="display_icon(interfaces.Icons)" s="93" e="99" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(interfaces.Icons)"><params><param type="interfaces.Icons"/></params><dm p="taskbar_bottom.ViewBottom" s="show_iconBtn(javafx.scene.control.Button,java.lang.String)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="interfaces.Icons" s="getImageName()"/>
+<dm p="taskbar_bottom.ControllerBottom" s="connect_view_Buttons(int)"/>
+<dm p="java.util.List" s="size()"/>
+<dm p="taskbar_bottom.ModelBottom" s="getList()"/>
+<dm p="taskbar_bottom.ControllerBottom" s="add_grow_effects(int)"/>
+<dm p="java.util.List" s="size()"/>
+<dm p="taskbar_bottom.ModelBottom" s="getList()"/>
+<metrics cc="1" cm="0" vars="0" loc="3"/></method><method name="hover_effect_hBox(javafx.scene.layout.HBox,double)" s="102" e="104" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(javafx.scene.layout.HBox,double)"><params><param type="javafx.scene.layout.HBox"/><param type="double"/></params><dm p="taskbar_bottom.ModelBottom" s="set_HBox_spacing_effect(javafx.scene.layout.HBox,double)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="hover_effect(javafx.scene.control.Button,double,double)" s="106" e="109" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(javafx.scene.control.Button,double,double)"><params><param type="javafx.scene.control.Button"/><param type="double"/><param type="double"/></params><dm p="taskbar_bottom.ModelBottom" s="set_Btn_Hover_effect(javafx.scene.control.Button,double,double)"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="remove(javafx.scene.control.Button)" s="111" e="118" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="javafx.scene.control.Button"/></params><dm p="javafx.scene.Node" s="getId()"/>
+<dm p="taskbar_bottom.ViewBottom" s="remove(javafx.scene.control.Button)"/>
+<dm p="taskbar_bottom.ModelBottom" s="remove(javafx.scene.control.Button)"/>
+<metrics cc="2" cm="0" vars="0" loc="3"/></method><method name="add_new_icon(java.lang.String,java.lang.String)" s="119" e="129" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.String,java.lang.String)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="taskbar_bottom.ModelBottom" s="add_new_icon(java.lang.String,java.lang.String)"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="taskbar_bottom.ModelBottom" s="getList()"/>
+<dm p="java.util.List" s="size()"/>
+<dm p="taskbar_bottom.ModelBottom" s="getList()"/>
+<dm p="taskbar_bottom.ControllerBottom" s="display_icon(interfaces.Icons)"/>
+<metrics cc="2" cm="0" vars="2" loc="4"/></method><method name="getLayoutContainer()" s="131" e="134" n ="false" sta ="false" sync ="false" vis="public" return="javafx.scene.layout.Pane"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="taskbar_bottom.ViewBottom" s="getLayout_Container()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="getScrollPane()" s="136" e="139" n ="false" sta ="false" sync ="false" vis="public" return="javafx.scene.control.ScrollPane"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="taskbar_bottom.ViewBottom" s="getScrollPane()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

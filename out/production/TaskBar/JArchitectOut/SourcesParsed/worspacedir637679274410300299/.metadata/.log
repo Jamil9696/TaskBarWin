@@ -1,0 +1,10 @@
+!SESSION 2021-09-22 17:10:41.270 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_301
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Framework arguments:  -output C:\Users\jamil\IdeaProjects\TaskBar\src\JArchitectOut\SourcesParsed
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\jamil\IdeaProjects\TaskBar\src\JArchitectOut\SourcesParsed/worspacedir637679274410300299 -clean -output C:\Users\jamil\IdeaProjects\TaskBar\src\JArchitectOut\SourcesParsed
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-09-22 17:10:45.940
+!MESSAGE The workspace will exit with unsaved changes in this session.

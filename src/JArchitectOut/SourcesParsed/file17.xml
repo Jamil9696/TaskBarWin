@@ -1,0 +1,47 @@
+<root><type name="taskbar_center.ControllerCenter" s="10"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<interfaces>
+<interface name="interfaces.Controllers"/>
+</interfaces><field name="model" s="12" type="taskbar_center.ModelCenter" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="view_center" s="13" type="taskbar_center.ViewCenter" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="ControllerCenter(taskbar_center.ViewCenter)" s="15" e="19" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(taskbar_center.ViewCenter)"><params><param type="taskbar_center.ViewCenter"/></params><dm p="taskbar_center.ModelCenter" s="ModelCenter()"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="start()" s="20" e="30" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="taskbar_center.ViewCenter" s="setStyle()"/>
+<dm p="taskbar_center.ViewCenter" s="close()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<dm p="taskbar_center.ViewCenter" s="getLayout_Container()"/>
+<dm p="javafx.scene.control.ScrollPane" s="getContent()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<dm p="javafx.scene.Node" s="setOnMouseClicked(javafx.event.EventHandler)"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<dm p="taskbar_center.ControllerCenter" s="display_delete_buttons()"/>
+<metrics cc="1" cm="0" vars="4" loc="6"/></method><method name="display_btn(interfaces.Icons)" s="32" e="42" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(interfaces.Icons)"><params><param type="interfaces.Icons"/></params><dm p="taskbar_center.ModelCenter" s="add_new_icon(java.lang.String)"/>
+<dm p="interfaces.Icons" s="getTarget()"/>
+<dm p="taskbar_center.ViewCenter" s="show_iconBtn_view_bottom(javafx.scene.control.Button,java.lang.String,java.lang.String)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="interfaces.Icons" s="getImageName()"/>
+<dm p="javafx.scene.Node" s="getId()"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="taskbar_center.ViewCenter" s="show_iconBtn(javafx.scene.control.Button,java.lang.String)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="interfaces.Icons" s="getImageName()"/>
+<metrics cc="2" cm="0" vars="1" loc="5"/></method><method name="display_delete_buttons()" s="44" e="46" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="taskbar_center.ViewCenter" s="display_mini_deleteBtn()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="remove(javafx.scene.control.Button)" s="48" e="56" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="javafx.scene.control.Button"/></params><dm p="javafx.scene.Node" s="getParent()"/>
+<dm p="java.lang.Thread" s="Thread(java.lang.Runnable)"/>
+<dm p="taskbar_center.ModelCenter" s="remove_icon(javafx.scene.control.Button)"/>
+<dm p="java.lang.Thread" s="start()"/>
+<dm p="taskbar_center.ViewCenter" s="remove(javafx.scene.layout.VBox)"/>
+<metrics cc="1" cm="0" vars="2" loc="4"/></method><method name="add_new_icon(interfaces.Icons)" s="57" e="62" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(interfaces.Icons)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="interfaces.Icons"/></params><dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="taskbar_center.ModelCenter" s="getList()"/>
+<dm p="taskbar_center.ControllerCenter" s="display_btn(interfaces.Icons)"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="add_new_icon(java.lang.String,java.lang.String)" s="64" e="67" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(java.lang.String,java.lang.String)"><annotations><annotation name="java.lang.Override"/></annotations><params><param type="java.lang.String"/><param type="java.lang.String"/></params><metrics cc="1" cm="0" vars="0" loc="0"/></method><method name="getLayoutContainer()" s="69" e="76" n ="false" sta ="false" sync ="false" vis="public" return="javafx.scene.layout.Pane"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="taskbar_center.ViewCenter" s="deleteBtnVisibility()"/>
+<dm p="taskbar_center.ControllerCenter" s="display_delete_buttons()"/>
+<dm p="taskbar_center.ViewCenter" s="getLayout_Container()"/>
+<metrics cc="2" cm="0" vars="0" loc="3"/></method><method name="getScrollPane()" s="78" e="82" n ="false" sta ="false" sync ="false" vis="public" return="javafx.scene.control.ScrollPane"  signature="()"><annotations><annotation name="java.lang.Override"/></annotations><dm p="java.util.List" s="get(int)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<dm p="taskbar_center.ViewCenter" s="getLayout_Container()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>

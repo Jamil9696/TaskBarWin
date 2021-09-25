@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF - 8'?>
+                     <classpath >
+                       <classpathentry kind="src" path="src"/>
+
+                       <classpathentry kind="lib" path="C:\Users\jamil\Desktop\JArchitect\SourceAnalyzer\libs\charsets.jar"/>
+<classpathentry kind="lib" path="C:\Users\jamil\Desktop\JArchitect\SourceAnalyzer\libs\javaws.jar"/>
+<classpathentry kind="lib" path="C:\Users\jamil\Desktop\JArchitect\SourceAnalyzer\libs\jce.jar"/>
+<classpathentry kind="lib" path="C:\Users\jamil\Desktop\JArchitect\SourceAnalyzer\libs\jfr.jar"/>
+<classpathentry kind="lib" path="C:\Users\jamil\Desktop\JArchitect\SourceAnalyzer\libs\jfxswt.jar"/>
+<classpathentry kind="lib" path="C:\Users\jamil\Desktop\JArchitect\SourceAnalyzer\libs\jsse.jar"/>
+<classpathentry kind="lib" path="C:\Users\jamil\Desktop\JArchitect\SourceAnalyzer\libs\management-agent.jar"/>
+<classpathentry kind="lib" path="C:\Users\jamil\Desktop\JArchitect\SourceAnalyzer\libs\plugin.jar"/>
+<classpathentry kind="lib" path="C:\Users\jamil\Desktop\JArchitect\SourceAnalyzer\libs\rt.jar"/>
+<classpathentry kind="lib" path="C:\Users\jamil\IdeaProjects\TaskBar\out\artifacts\TaskBar_jar\TaskBar.jar"/>
+
+                     </classpath>

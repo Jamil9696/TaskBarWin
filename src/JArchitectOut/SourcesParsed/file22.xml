@@ -1,0 +1,38 @@
+<root><type name="taskbar_right.ViewRight" s="7"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="pane" s="9" type="javafx.scene.control.ScrollPane" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<field name="vBox" s="10" type="javafx.scene.layout.VBox" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="ViewRight()" s="12" e="15" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="javafx.scene.control.ScrollPane" s="ScrollPane()"/>
+<dm p="javafx.scene.layout.VBox" s="VBox()"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="setStyle()" s="16" e="20" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="taskbar_right.ViewRight" s="setScrollPane(javafx.scene.control.ScrollPane)"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="getStyleClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="2"/></method><method name="setScrollPane(javafx.scene.control.ScrollPane)" s="22" e="28" n ="false" sta ="false" sync ="false" vis="private" return="void"  signature="(javafx.scene.control.ScrollPane)"><params><param type="javafx.scene.control.ScrollPane"/></params><dm p="javafx.scene.control.ScrollPane" s="setContent(javafx.scene.Node)"/>
+<dm p="javafx.scene.control.ScrollPane" s="setPannable(boolean)"/>
+<dm p="javafx.scene.control.ScrollPane" s="setVbarPolicy(javafx.scene.control.ScrollPane$ScrollBarPolicy)"/>
+<dm p="javafx.scene.control.ScrollPane" s="setHbarPolicy(javafx.scene.control.ScrollPane$ScrollBarPolicy)"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="getStyleClass()"/>
+<metrics cc="1" cm="0" vars="0" loc="5"/></method><method name="getScrollPane()" s="30" e="30" n ="false" sta ="false" sync ="false" vis="public" return="javafx.scene.control.ScrollPane"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="show_iconBtn(javafx.scene.control.Button,java.lang.String,java.lang.String)" s="32" e="41" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button,java.lang.String,java.lang.String)"><params><param type="javafx.scene.control.Button"/><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="javafx.scene.Node" s="setStyle(java.lang.String)"/>
+<dm p="javafx.scene.layout.VBox" s="VBox(javafx.scene.Node[])"/>
+<dm p="javafx.scene.control.Label" s="Label(java.lang.String)"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="getStyleClass()"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="getStyleClass()"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<metrics cc="1" cm="0" vars="1" loc="5"/></method><method name="remove(javafx.scene.control.Button)" s="43" e="52" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button)"><params><param type="javafx.scene.control.Button"/></params><dm p="java.util.List" s="size()"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<dm p="java.lang.String" s="equals(java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="getId()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<dm p="javafx.scene.Node" s="getId()"/>
+<dm p="java.util.List" s="remove(int)"/>
+<dm p="javafx.scene.layout.Pane" s="getChildren()"/>
+<metrics cc="3" cm="0" vars="2" loc="4"/></method>
+</type></root>

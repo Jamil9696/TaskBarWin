@@ -1,0 +1,50 @@
+<root><type name="taskbar_bottom.ModelBottom" s="13"  vis="public"  kind="class"  dep ="false" fin ="false" sta ="false" abs ="false" n ="false" c="0" >
+<field name="iconList" s="15" type="java.util.List" vis="private"  fin ="true" sta ="false" c="0" >
+</field>
+<method name="ModelBottom()" s="17" e="19" cons ="true" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="()"><dm p="java.util.ArrayList" s="ArrayList&lt;Icons&gt;()"/>
+<metrics cc="1" cm="0" vars="0" loc="1"/></method><method name="add_new_icon(java.lang.String,java.lang.String)" s="21" e="30" n ="false" sta ="false" sync ="false" vis="public" return="boolean"  signature="(java.lang.String,java.lang.String)"><params><param type="java.lang.String"/><param type="java.lang.String"/></params><dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="setId(java.lang.String)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="java.util.List" s="size()"/>
+<dm p="java.lang.String" s="valueOf(int)"/>
+<dm p="java.util.List" s="size()"/>
+<metrics cc="2" cm="0" vars="1" loc="6"/></method><method name="set_Btn_Hover_effect(javafx.scene.control.Button,double,double)" s="32" e="42" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button,double,double)"><params><param type="javafx.scene.control.Button"/><param type="double"/><param type="double"/></params><dm p="javafx.animation.Timeline" s="Timeline()"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.animation.Timeline" s="getKeyFrames()"/>
+<dm p="javafx.animation.KeyFrame" s="KeyFrame(javafx.util.Duration,javafx.animation.KeyValue[])"/>
+<dm p="javafx.util.Duration" s="millis(double)"/>
+<dm p="javafx.animation.KeyValue" s="KeyValue(javafx.beans.value.WritableValue,java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="scaleXProperty()"/>
+<dm p="javafx.animation.KeyValue" s="KeyValue(javafx.beans.value.WritableValue,java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="scaleYProperty()"/>
+<dm p="javafx.animation.KeyValue" s="KeyValue(javafx.beans.value.WritableValue,java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="translateYProperty()"/>
+<dm p="javafx.animation.Animation" s="play()"/>
+<metrics cc="1" cm="0" vars="1" loc="3"/></method><method name="set_btn_rotate_effect(javafx.scene.control.Button)" s="44" e="49" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button)"><params><param type="javafx.scene.control.Button"/></params><dm p="javafx.animation.RotateTransition" s="RotateTransition()"/>
+<dm p="javafx.animation.RotateTransition" s="setNode(javafx.scene.Node)"/>
+<dm p="javafx.animation.RotateTransition" s="setByAngle(double)"/>
+<dm p="java.lang.Math" s="random()"/>
+<dm p="javafx.animation.Animation" s="play()"/>
+<metrics cc="1" cm="0" vars="1" loc="4"/></method><method name="remove(javafx.scene.control.Button)" s="51" e="63" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.control.Button)"><params><param type="javafx.scene.control.Button"/></params><dm p="java.util.List" s="size()"/>
+<dm p="java.lang.String" s="equals(java.lang.Object)"/>
+<dm p="javafx.scene.Node" s="getStyle()"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="javafx.scene.Node" s="getStyle()"/>
+<dm p="java.util.List" s="remove(int)"/>
+<dm p="java.util.List" s="size()"/>
+<dm p="javafx.scene.Node" s="setId(java.lang.String)"/>
+<dm p="interfaces.Icons" s="getButton()"/>
+<dm p="java.util.List" s="get(int)"/>
+<dm p="java.lang.String" s="valueOf(int)"/>
+<metrics cc="4" cm="0" vars="2" loc="6"/></method><method name="set_HBox_spacing_effect(javafx.scene.layout.HBox,double)" s="65" e="73" n ="false" sta ="false" sync ="false" vis="public" return="void"  signature="(javafx.scene.layout.HBox,double)"><params><param type="javafx.scene.layout.HBox"/><param type="double"/></params><dm p="javafx.animation.Timeline" s="Timeline()"/>
+<dm p="java.util.List" s="add(java.lang.Object)"/>
+<dm p="javafx.animation.Timeline" s="getKeyFrames()"/>
+<dm p="javafx.animation.KeyFrame" s="KeyFrame(javafx.util.Duration,javafx.animation.KeyValue[])"/>
+<dm p="javafx.util.Duration" s="millis(double)"/>
+<dm p="javafx.animation.KeyValue" s="KeyValue(javafx.beans.value.WritableValue,java.lang.Object,javafx.animation.Interpolator)"/>
+<dm p="javafx.scene.layout.HBox" s="spacingProperty()"/>
+<dm p="javafx.animation.Animation" s="play()"/>
+<metrics cc="1" cm="0" vars="1" loc="3"/></method><method name="getList()" s="74" e="76" n ="false" sta ="false" sync ="false" vis="public" return="java.util.List"  signature="()"><metrics cc="1" cm="0" vars="0" loc="1"/></method>
+</type></root>
